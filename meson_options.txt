@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2022  Emmanuele Bassi
+# SPDX-License-Identifier: MIT
+
+option (
+  'profile',
+  type: 'combo',
+  choices: [
+    'default',
+    'development'
+  ],
+  value: 'default',
+)
